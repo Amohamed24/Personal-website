@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="import { FaGithub } from "react-icons/fa";">
 </head>
 <body>
     
@@ -14,46 +15,49 @@
     <header id="header">
         <nav>
             <ul>
+                <li>Home<a href=""></a></li>
                 <li>About<a href=""></a></li>
+                <li>Skills<a href=""></a></li>
                 <li>Projects<a href=""></a></li>
-                <li>Contact Me<a href=""></a></li>
+                <li>Contact<a href=""></a></li>
             </ul>
-            <div class="container">
-                <button class="theme-toggle">Toggle Theme</button>
-            </div>
         </nav>
-
-    
-
-
+        <div class="container">
+            <button class="theme-toggle">&#127775;</button> 
+            <span class="theme-name"></span> 
+        </div>
     </header>
-    
-    
 
+    
+    
+    
     <main id="mainContent">
-        <div class="about"></div>
+        <div class="about-sec">
+            <h1>About Me</h1>
+            <p class="about-content">Hey there! I'm Mohamed Ahmed, a Full Stack Developer who loves building things that make life easier.
+                Whether it's creating sleek, user-friendly websites or making sure everything behind the scenes runs smoothly,
+                I'm all about solving problems and making things work better.
+                I'm comfortable working with JavaScript, React, Node.js, TypeScript, and SQL, and had the chance to work on a variety of projects, 
+                from web apps to APIs. I enjoy the mix of front-end creativity and back-end logic—it keeps things interesting!
+                Let's connect and build something awesome!
+            </p>
+        </div>
+
         <div class="projects">
             <div class="project1">
                 <h1>Task Manager Project</h1>
             </div>
-            <div class="project1">
-                <p>description of project</p>
-            </div>
-            <div class="project2"></div>
-                <p>description of project</p>
-            <div class="project3">
-                <p>description of project</p>
-            </div>
         </div>
-        <div class="contact"></div>
     </main> 
 
     <footer id="footer">
-        <p>Contact form</p>
-            <input placeholder="first and last name" >
-            <input type="email" placeholder="email address">
-            <input type="submit">
-        <p>FOOTER</p>
+        
+        <div>
+            <h1 class="contact">Contact Me</h1>
+            <FaGithub />    
+            <p class="end"> &#169 2024 Mohamed Ahmed <br/>Made using React</p>
+        </div>
+        
     </footer>
 </div>
 
